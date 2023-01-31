@@ -7,5 +7,5 @@ export default defineCliConfig({
   api: {
     projectId,
     dataset,
-  },
-});
+  }
+})

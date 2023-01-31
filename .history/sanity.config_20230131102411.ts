@@ -20,4 +20,4 @@ export default defineConfig({
     types: schemaTypes,
   },
   theme: myTheme
-})
+});
