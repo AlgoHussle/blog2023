@@ -1,16 +1,16 @@
-import {buildLegacyTheme} from "sanity";
+import {buildLegacyTheme} from "sanity"
 
 const props = {
     "--my-white": "#fff",
     "--my-black": "#1a1a1a",
-    "--my-purple": "#B80FFC",
+    "--papafam-brand": "#F7ABOA",
     "--my-red": "#db4437",
     "--my-yellow": "#f4b400",
     "--my-green": "#0f9d58", 
 }
 
 export const myTheme = buildLegacyTheme({
-    /* Base theme colors */
+    
     "--black": props["--my-black"],
     "--white": props["--my-white"],
 
@@ -21,10 +21,10 @@ export const myTheme = buildLegacyTheme({
     "--component-text-color": props["--my-white"],
 
     /* Brand */
-    "--brand-primary": props["--my-purple"],
+    "--brand-primary": props["--PAPAFAM-BRAND"],
 
     // Default button
-    "--default-button-color": "--gray",
+    "--default-button-color": "#666",
     "--default-button-primary-color": props["--my-purple"],
     "--default-button-success-color": props["--my-green"],
     "--default-button-warning-color": props["--my-yellow"],
@@ -45,4 +45,4 @@ export const myTheme = buildLegacyTheme({
 
 
     
-});
+})
